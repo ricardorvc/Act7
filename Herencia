@@ -1,0 +1,33 @@
+<?php  
+ class humano    
+   {        
+   function habla($n)      
+     {              
+ echo "javatpoint";        
+   }     
+  }      
+ class b extends a    
+   {         
+  function habla($n);      
+     {            
+   echo "estoy hablando y que soy $n <br>";  
+         } 
+ //fin funcion habla       
+  function el_y_ella($el,$ella);   
+   }  
+// fin clase humano  
+   function puestoempleado($n,$p,$s);  
+     {          
+ echo "$n tiene el puesto de $p y gana $s pesos";  
+     }         
+   $persona= new humano();//se crea el objeto persona    
+    echo "no estoy utilizando herencia <br>";  
+   $persona->habla("Ricardo valenciana castillo <br>");   
+   $persona->el_y_ella("Agripito","Agripina")      
+ $persona->el_y_ella("Heraclio","Gerente",15000);    
+ // usando herencia     $objempleado= new empleado();
+//se crea el objeto persona       
+ echo "si estoy utilizando herencia <br>";  
+ $objempleado->habla("Anasatasio lopez <br>");  
+    $objempleado->el_y_ella("Agripito","Agripina")     
+  $objempleado->Puesto
